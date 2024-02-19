@@ -1,5 +1,7 @@
+using Infrastructure.Web.Triditech.Extensions;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Services.Data.Triditech.Interfaces;
 using Web.Triditech.Data;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -12,6 +14,9 @@ builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
     .AddEntityFrameworkStores<ApplicationDbContext>();
+
+builder.Services.AddApplicationServices(typeof(IBaseService));
+
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();

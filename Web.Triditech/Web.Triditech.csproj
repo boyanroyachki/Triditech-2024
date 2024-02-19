@@ -15,4 +15,9 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Infrastructure.Web.Triditech\Infrastructure.Web.Triditech.csproj" />
+    <ProjectReference Include="..\Services.Data.Triditech\Services.Data.Triditech.csproj" />
+  </ItemGroup>
+
 </Project>
