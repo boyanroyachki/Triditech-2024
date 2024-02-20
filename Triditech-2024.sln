@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.Web.Triditec
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services.Data.Triditech", "Services.Data.Triditech\Services.Data.Triditech.csproj", "{6D3774E5-2140-499C-B6E4-B352C2BC82CD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Triditech", "Common.Triditech\Common.Triditech.csproj", "{007B4DBF-D664-4FA2-AB1D-828C74DDCF33}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,10 @@ Global
 		{6D3774E5-2140-499C-B6E4-B352C2BC82CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D3774E5-2140-499C-B6E4-B352C2BC82CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D3774E5-2140-499C-B6E4-B352C2BC82CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{007B4DBF-D664-4FA2-AB1D-828C74DDCF33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{007B4DBF-D664-4FA2-AB1D-828C74DDCF33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{007B4DBF-D664-4FA2-AB1D-828C74DDCF33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{007B4DBF-D664-4FA2-AB1D-828C74DDCF33}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
