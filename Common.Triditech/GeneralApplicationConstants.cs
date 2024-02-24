@@ -6,5 +6,6 @@
 	public static class GeneralApplicationConstants
 	{
 		public const string CreatedOn = "20/02/2024";
+		public const int ReleaseYear = 2024;
 	}
 }

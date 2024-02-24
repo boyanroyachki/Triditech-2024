@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web.Triditech", "Web.Triditech\Web.Triditech.csproj", "{D7D3BA92-E552-4655-8560-12E43C56488A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Web.Triditech", "Web.Triditech\Web.Triditech.csproj", "{D7D3BA92-E552-4655-8560-12E43C56488A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{A7B1B4F0-F2CE-4842-B629-316F5E279AEB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{9184371E-17E4-4FF4-8948-1D48D45C3065}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.Web.Triditech", "Infrastructure.Web.Triditech\Infrastructure.Web.Triditech.csproj", "{F78814E4-6D3D-4AF7-95D3-A0532FD77966}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure.Web.Triditech", "Infrastructure.Web.Triditech\Infrastructure.Web.Triditech.csproj", "{F78814E4-6D3D-4AF7-95D3-A0532FD77966}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services.Data.Triditech", "Services.Data.Triditech\Services.Data.Triditech.csproj", "{6D3774E5-2140-499C-B6E4-B352C2BC82CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services.Data.Triditech", "Services.Data.Triditech\Services.Data.Triditech.csproj", "{6D3774E5-2140-499C-B6E4-B352C2BC82CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Triditech", "Common.Triditech\Common.Triditech.csproj", "{007B4DBF-D664-4FA2-AB1D-828C74DDCF33}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common.Triditech", "Common.Triditech\Common.Triditech.csproj", "{007B4DBF-D664-4FA2-AB1D-828C74DDCF33}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

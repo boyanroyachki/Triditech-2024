@@ -22,6 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Common.Triditech\Common.Triditech.csproj" />
     <ProjectReference Include="..\Infrastructure.Web.Triditech\Infrastructure.Web.Triditech.csproj" />
     <ProjectReference Include="..\Services.Data.Triditech\Services.Data.Triditech.csproj" />
   </ItemGroup>

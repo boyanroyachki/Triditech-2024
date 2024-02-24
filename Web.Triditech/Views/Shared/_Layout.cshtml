@@ -1,4 +1,6 @@
-﻿<!DOCTYPE html>
+﻿@using static Common.Triditech.GeneralApplicationConstants;
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="utf-8" />
@@ -9,8 +11,11 @@
 	<link rel="stylesheet" href="~/Web.Triditech.styles.css" asp-append-version="true" />
 </head>
 <body class="bg-dark text-white">
+	<div class="bg-secondary text-center">
+		<p>For any questions, you can always call us on: (+359) 899 999 999</p>
+	</div>
 	<header>
-		<nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark border-bottom box-shadow mb-3">
+		<nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-black border-bottom box-shadow mb-3">
 			<div class="container-fluid">
 				<a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Triditech</a>
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
@@ -27,7 +32,7 @@
 						</li>
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-								Dropdown
+								About us
 							</a>
 							<ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
 								<li><a class="dropdown-item" href="#">Action</a></li>
@@ -50,7 +55,14 @@
 	<footer class="border-top footer text-muted">
 		<div class="text-center">
 			<div class="container">
-				&copy; 2024 - Triditech - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+				&copy; Triditech @ReleaseYear
+				@if (DateTime.UtcNow.Year != ReleaseYear)
+				{
+					@Html.Raw($" - {DateTime.UtcNow.Year}")
+				}
+			</div>
+			<div class="container">
+				Triditech online trading system 1.0
 			</div>
 		</div>
 	</footer>

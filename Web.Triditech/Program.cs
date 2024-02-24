@@ -2,6 +2,7 @@ using Infrastructure.Web.Triditech.Extensions;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Services.Data.Triditech.Interfaces;
+using Services.Data.Triditech.Services;
 using Web.Triditech.Data;
 
 var builder = WebApplication.CreateBuilder(args);
